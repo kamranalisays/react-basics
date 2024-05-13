@@ -2,6 +2,7 @@ import PackingList from './Components/ConditionalRendering/PackingList';
 import Profile from './Components/Profile';
 import List from './Components/RenderingList/RenderingList';
 import TeaSet from './Components/PureFunction/TeaSet';
+import ButtonForPlayMovie from './Components/RespondingEvents/EventHandlers';
 
 
 
@@ -17,10 +18,9 @@ function App() {
     <List/>
     <h1> Tutorial 4 : Pure Function </h1>
     <TeaSet/>
-  
-
-   </div>
-
+    <h1> Tutorial 5 : Event Handlers Function </h1>
+    <ButtonForPlayMovie/>
+    </div>
   );
 }
 
