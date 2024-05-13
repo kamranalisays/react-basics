@@ -3,6 +3,7 @@ import Profile from './Components/Profile';
 import List from './Components/RenderingList/RenderingList';
 import TeaSet from './Components/PureFunction/TeaSet';
 import ButtonForPlayMovie from './Components/RespondingEvents/EventHandlers';
+import Gallery from './Components/Hook/Gallery';
 
 
 
@@ -20,7 +21,10 @@ function App() {
     <TeaSet/>
     <h1> Tutorial 5 : Event Handlers Function </h1>
     <ButtonForPlayMovie/>
+    <h1> Tutorial 6 : Hook </h1>
+    <Gallery/>
     </div>
+
   );
 }
 
